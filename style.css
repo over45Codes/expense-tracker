@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
+body {
+  font-family: "Happy Monkey", cursive;
+  margin: 0 box-sizing border-box;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 20px;
+  font-weight: 100;
+}
+
+table {
+}
