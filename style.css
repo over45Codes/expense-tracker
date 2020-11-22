@@ -2,15 +2,18 @@
 
 body {
   font-family: "Happy Monkey", cursive;
-  margin: 0 box-sizing border-box;
-  background-color: lightgray;
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
-}
+  color: lightseagreen;
 
-h1 {
+  padding: 10px;
   font-size: 2.5em;
   margin-top: 20px;
 }
@@ -18,7 +21,73 @@ h1 {
 h2 {
   margin: 20px;
   font-weight: 100;
+  text-align: center;
+  color: lightseagreen;
+  border: 5px dotted lightslategray;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+#add-expense-container {
+  width: 80%;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 5px inset lightslategray;
+  border-radius: 5px;
+}
+
+.form {
+  width: 80%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+#button {
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: darkgray;
 }
 
 table {
+  width: 100%;
+  table-layout: auto;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  border: solid 1px lightslategray;
+  text-align: center;
+}
+
+th {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
