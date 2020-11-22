@@ -1,4 +1,4 @@
-# Vanilla JavaScript expense-tracker App
+# Vanilla JavaScript Expense-Tracker App
 
 Expense Tracker Application built in JavaScript, HTML and CSS
 
