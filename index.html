@@ -18,7 +18,7 @@
       <form class="form">
         <div>
           <span>Type:</span>
-          <select name="type">
+          <select id="type" name="type">
             <option value="credit-card">Credit-Card</option>
             <option value="cash">Cash</option>
             <option value="other">Other</option>
@@ -28,24 +28,33 @@
         <div>
           <span>Category:</span>
           <input
+            id="name"
             type="text"
-            name="item-name"
+            name="item"
             placeholder="Enter expense item"
           />
         </div>
 
-        <div><span>Date:</span> <input type="date" name="date" /></div>
+        <div>
+          <span>Date:</span>
+          <input id="date" type="date" name="date" />
+        </div>
 
         <div>
           <span>Amount: $</span>
-          <input type="number" name="amount" placeholder="Enter amount" />
+          <input
+            id="number"
+            type="number"
+            name="amount"
+            placeholder="Enter amount"
+          />
         </div>
       </form>
     </div>
 
-    <div id="button"><span>Add New Transaction</span></div>
+    <div id="btn"><span>Add New Transaction</span></div>
 
-    <table>
+    <table id="transaction-table">
       <tr>
         <th id="type">Type</th>
         <th id="name">Category</th>
@@ -56,5 +65,6 @@
         <td colspan="4"><span>Purchase History</span></td>
       </tr>
     </table>
+    <script src="expense.js"></script>
   </body>
 </html>

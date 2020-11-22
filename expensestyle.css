@@ -50,7 +50,7 @@ h2 {
   font-size: 1rem;
 }
 
-#button {
+#btn {
   background-color: lightseagreen;
   border: none;
   color: white;
@@ -65,7 +65,7 @@ h2 {
   cursor: pointer;
 }
 
-#button:hover {
+#btn:hover {
   background-color: darkgray;
 }
 
