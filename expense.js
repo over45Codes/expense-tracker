@@ -45,7 +45,7 @@ function addTransaction(event) {
 }
 
 function addRow(type, category, date, amount) {
-  let row = tableTransaction.insertRow(0);
+  let row = tableTransaction.insertRow(-1);
   // tableTransaction.addRow;
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
