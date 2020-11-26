@@ -4,9 +4,6 @@ const tableTransaction = document.getElementById("transaction-table");
 const submitBtn = document.getElementById("btn");
 submitBtn.addEventListener("click", addTransaction);
 
-const deleteBtn = document.getElementById("action");
-deleteBtn.addEventListener("click", deleteBtn);
-
 function addTransaction(event) {
   event.preventDefault();
 
@@ -34,6 +31,8 @@ function addRow(type, category, date, amount) {
   let cell5 = row.insertCell(4);
 
   let deleteBtn = document.createElement("button");
+  deleteBtn.type = "button";
+  deleteBtn.className = "btn";
   deleteBtn.innerHTML = "Clear Transaction";
   cell5.appendChild(deleteBtn);
 
@@ -44,6 +43,12 @@ function addRow(type, category, date, amount) {
     cell1.innerHTML = type;
     cell3.innerHTML = formattedDate;
     cell4.innerHTML = `$ ${amount}`;
+
+    deleteBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      row.remove();
+    });
   }
 
   const categoryInput = document.getElementById("name");
@@ -57,4 +62,8 @@ function addRow(type, category, date, amount) {
 
   const dateInput = document.getElementById("date");
   dateInput.value = "";
+}
+
+function myDeleteFunction() {
+  document.getElementById("transaction-table").deleteRow(0);
 }
