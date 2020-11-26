@@ -4,9 +4,8 @@ const tableTransaction = document.getElementById("transaction-table");
 const submitBtn = document.getElementById("btn");
 submitBtn.addEventListener("click", addTransaction);
 
-const deleteBtn = document
-  .getElementById("action")
-  .addEventListener("click", deleteBtn);
+const deleteBtn = document.getElementById("action");
+deleteBtn.addEventListener("click", deleteBtn);
 
 function addTransaction(event) {
   event.preventDefault();
@@ -34,13 +33,9 @@ function addRow(type, category, date, amount) {
   let cell4 = row.insertCell(3);
   let cell5 = row.insertCell(4);
 
-  // create fifth cell
-  // create button
   let deleteBtn = document.createElement("button");
   deleteBtn.innerHTML = "Clear Transaction";
   cell5.appendChild(deleteBtn);
-  // append the button to fifth cell
-  // add event listener to fifth button
 
   if (category == "" || type == "" || date == "" || amount == "") {
     alert("Please fill out all fields");
@@ -49,9 +44,8 @@ function addRow(type, category, date, amount) {
     cell1.innerHTML = type;
     cell3.innerHTML = formattedDate;
     cell4.innerHTML = `$ ${amount}`;
-    cell5.innerHTML = button;
   }
-  // clear the category
+
   const categoryInput = document.getElementById("name");
   categoryInput.value = "";
 
