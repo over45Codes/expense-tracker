@@ -8,7 +8,7 @@ Try it [here!](https://gracii.github.io/expense-tracker/)
 
 ## Summary
 
-This app is a simple expense tracker. It lets you record your expenses sort of like a checkbook register (by type i.e. cash, date, amount $ & including a description) , but has separate columns for different expense categories for recording your transcactions. Built with simple CSS styling. It was fun creating functions to Dynamically Add or Remove Table Rows in Vanilla JavaScript.
+This app is a simple expense tracker. It lets you record your expenses similiar to a checkbook register (by type i.e. cash, date, amount $ & including a description), but has separate columns for different categories for recording your transcactions. Built with simple CSS styling. It was fun creating functions to Dynamically Add or Remove Table Rows in Vanilla JavaScript.
 
 ## Author
 
