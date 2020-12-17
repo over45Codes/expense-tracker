@@ -11,47 +11,39 @@
     <title>Grace | Expense Tracker</title>
     <link href="expensestyle.css" rel="stylesheet" />
   </head>
-  <h1>Simple Expense Tracker</h1>
   <body>
+    <h1>Simple Expense Tracker</h1>
     <div id="add-expense-container">
       <h2>Add New Expense</h2>
       <form class="form">
-        <div>
-          <span>Type:</span>
-          <select id="type" name="type">
-            <option value="credit-card">Credit-Card</option>
-            <option value="cash">Cash</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
+        <span>Type:</span>
+        <select id="type" name="type">
+          <option value="credit-card">Credit-Card</option>
+          <option value="cash">Cash</option>
+          <option value="other">Other</option>
+        </select>
+        />
 
-        <div>
-          <span>Category:</span>
-          <input
-            id="name"
-            type="text"
-            name="item"
-            placeholder="Enter expense item"
-          />
-        </div>
+        <span>Category:</span>
+        <input
+          id="name"
+          type="text"
+          name="item"
+          placeholder="Enter expense item"
+        />
 
-        <div>
-          <span>Date:</span>
-          <input id="date" type="date" name="date" />
-        </div>
+        <span>Date:</span>
+        <input id="date" type="date" name="date" />
 
-        <div>
-          <span>Amount: $</span>
-          <input
-            id="amount"
-            type="number"
-            name="amount"
-            placeholder="Enter amount"
-          />
-        </div>
+        <span>Amount: $</span>
+        <input
+          id="amount"
+          type="number"
+          name="amount"
+          placeholder="Enter amount"
+        />
       </form>
     </div>
-
     <div id="btn"><span>Add New Transaction</span></div>
     <table id="transaction-table">
       <tr>
