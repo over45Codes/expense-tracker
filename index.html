@@ -16,15 +16,14 @@
     <div id="add-expense-container">
       <h2>Add New Expense</h2>
       <form class="form">
-        <span>Type:</span>
+        <label for="type">Type:</label>
         <select id="type" name="type">
           <option value="credit-card">Credit-Card</option>
           <option value="cash">Cash</option>
           <option value="other">Other</option>
         </select>
-        />
 
-        <span>Category:</span>
+        <label for="category">Category:</label>
         <input
           id="name"
           type="text"
@@ -32,10 +31,10 @@
           placeholder="Enter expense item"
         />
 
-        <span>Date:</span>
+        <label for="date">Date:</label>
         <input id="date" type="date" name="date" />
 
-        <span>Amount: $</span>
+        <label for="amount">Amount: $</label>
         <input
           id="amount"
           type="number"
@@ -44,17 +43,18 @@
         />
       </form>
     </div>
-    <div id="btn"><span>Add New Transaction</span></div>
+
+    <div id="btn">Add New Transaction</div>
     <table id="transaction-table">
       <tr>
-        <th id="type">Type</th>
-        <th id="name">Category</th>
-        <th id="date">Date</th>
-        <th id="amount">Amount $</th>
-        <th id="action">Clear</th>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Date</th>
+        <th>Amount $</th>
+        <th>Clear</th>
       </tr>
-      <tr id="if-empty">
-        <td colspan="5"><span>Purchase History</span></td>
+      <tr>
+        <td colspan="5">Purchase History</td>
       </tr>
     </table>
     <script src="expense.js"></script>
