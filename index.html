@@ -22,7 +22,8 @@
       <h2>Add New Expense</h2>
       <form class="form">
         <label for="type">Type:</label>
-        <select id="type" name="type">
+        <select id="type" name="type" class="input">
+          <option></option>
           <option value="credit-card">Credit-Card</option>
           <option value="cash">Cash</option>
           <option value="other">Other</option>
@@ -33,17 +34,19 @@
           id="name"
           type="text"
           name="item"
+          class="input"
           placeholder="Enter expense item"
         />
 
         <label for="date">Date:</label>
-        <input id="date" type="date" name="date" />
+        <input id="date" type="date" name="date" class="input" />
 
         <label for="amount">Amount: $</label>
         <input
           id="amount"
           type="number"
           name="amount"
+          class="input"
           placeholder="Enter amount"
         />
       </form>
