@@ -52,7 +52,7 @@ h2 {
 #btn {
   background-color: lightseagreen;
   border: none;
-  color: white;
+  color: black;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -78,12 +78,12 @@ td,
 th {
   border-collapse: collapse;
 }
-
 td,
 th {
-  padding: 10px;
-  border: solid 2px lightslategray;
+  padding: 3px;
+  border: 2px solid darkgray;
   text-align: center;
+  font-size: 18px;
 }
 
 th {
