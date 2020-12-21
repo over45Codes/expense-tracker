@@ -11,18 +11,21 @@ body {
 
 h1 {
   text-align: center;
-  color: lightseagreen;
+  color: red;
   padding: 10px;
   font-size: 2.5em;
   margin-top: 20px;
+}
+img {
+  width: 10%;
+  height: auto;
 }
 
 h2 {
   margin: 20px;
   font-weight: 100;
   text-align: center;
-  color: lightseagreen;
-  border: 5px dotted lightslategray;
+  color: lightcoral;
   padding: 10px;
   width: 300px;
   margin: 0 auto;
@@ -50,8 +53,9 @@ h2 {
 }
 
 #btn {
-  background-color: lightseagreen;
-  border: none;
+  background-color: lightcoral;
+
+  border-radius: 10px;
   color: black;
   padding: 16px 32px;
   text-align: center;
