@@ -8,9 +8,7 @@ Try it [here!](https://over45Codes.github.io/expense-tracker/)
 
 ## Summary
 
-This is simple expense tracker web application built in Vanilla Javascript, using HTML and CSS Flexbox Styling. This was a really cool & fun project, I learned more about HTML Tables, Rows which included creating functions for different kinds of input (text, dropdown, dates, amounts $), as well as Dynamically Adding or Removing Table Rows in Vanilla JavaScript.
-This expense tracker app lets the user record expenses similar to a checkbook register.
-Each expense has separate columns for different categories for recording your transaction, (by type i.e. cash, date, amount $ & including a description).
+This is a straightforward expense-tracking web application developed using pure JavaScript, along with HTML and CSS Flexbox styling. It was an enjoyable and interesting project that allowed me to gain a deeper understanding of working with HTML tables and rows. I had the opportunity to create various input functions for text, dropdowns, dates, and dollar amounts. Moreover, I learned how to dynamically add or remove table rows using Vanilla JavaScript. This expense tracker app enables users to log their expenses, similar to keeping a checkbook register. Each expense is organized into distinct columns to record transaction details, including type (such as cash), date, amount in dollars, and description.
 
 ## Author
 
